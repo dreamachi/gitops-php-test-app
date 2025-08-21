@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: container
-          image: image-registry.openshift-image-registry.svc:5000/demo-php/php-test-app:2025-08-21-06-59-11
+          image: image-registry.openshift-image-registry.svc:5000/demo-php/php-test-app:2025-08-21-07-14-29
           ports:
             - containerPort: 8080
               protocol: TCP
