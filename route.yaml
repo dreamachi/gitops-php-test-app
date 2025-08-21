@@ -3,7 +3,7 @@ apiVersion: route.openshift.io/v1
 metadata:
   name: php-test-app
 spec:
-  host: php-test-app-demo-cicd.apps.a.ocp.com
+  host: php1-test-app-demo-cicd.apps.a.ocp.com
   to:
     kind: Service
     name: php-test-app
