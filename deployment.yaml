@@ -11,7 +11,7 @@ spec:
     metadata:
       labels:
         app: php-test-app
-        test: test2222333232333
+        test: test2222333232333444
     spec:
       containers:
         - name: container
